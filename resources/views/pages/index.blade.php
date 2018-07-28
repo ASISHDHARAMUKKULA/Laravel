@@ -12,7 +12,8 @@
      @include('ins.navbar');
     <h1>{{$title}}</h1>
     <p>This is the Laravel Application</p>
-    <a href="/posts">Blog</a>
+    <a href="/posts">Blog</a><br/>
+    <a href="/posts/create">Create Post</a>
         
     </body>
 </html>
